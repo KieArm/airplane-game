@@ -10,7 +10,7 @@ export const Menu = () => {
 
   const handleRestart = () => {
     setGameRunning(true);
-    setTargetsRemaining();
+    setTargetsRemaining(9);
   };
 
   return (
